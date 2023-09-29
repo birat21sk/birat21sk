@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="mailto:biratsk21@gmail.com">📧 Email</a> |
-  <a href="https://www.linkedin.com/in/biratsk/">🌐 LinkedIn</a> |
+  <a href="https://np.linkedin.com/in/biratsk">🌐 LinkedIn</a> |
   <a href="https://biratsiku.com.np/">🌟 Portfolio</a>
 </p>
 
@@ -17,13 +17,11 @@
 As an explorer of the digital cosmos, I've mastered the art of crafting starry code constellations. Here are some of my cosmic skills:
 
 ```javascript
-const createConstellations = () => {
-    const constellations = {
-        "JavaScript Galaxy": ["React", "Node.js", "React Native"],
-        "Web Nebula": ["HTML5", "CSS3", "Sass"],
-        "Interstellar Databases": ["MySQL"],
-        "Astroarchitecture": ["Software Design Patterns", "Agile"],
-        "Quantum Problem Solving": ["Algorithmic Sorcery", "Bug Squashing"],
-    };
-    return constellations;
-}
+const createConstellations = () => ({
+  javaScriptGalaxy: ["React", "Node.js", "React Native", "Next.js", "TypeScript"],
+  webNebula: ["HTML5", "CSS3", "Sass"],
+  interstellarDatabases: ["MySQL"],
+  astroArchitecture: ["Software Design Patterns", "Agile"],
+  quantumProblemSolving: ["Algorithmic Sorcery", "Bug Squashing"],
+  AIConstellation: ["Machine Learning", "Deep Learning"],
+});
